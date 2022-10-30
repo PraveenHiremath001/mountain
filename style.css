@@ -1,0 +1,368 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.container
+{
+    display: flex;
+    position: relative;
+}
+ .container img
+{
+   width: 100%;
+}
+.img
+{
+    position: relative;
+}
+
+ ul 
+{
+    display: flex;
+}
+.links  li a{
+    position: absolute;
+    color: aliceblue;
+    right: 4em;
+    padding-top: 5px;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+    
+}
+.link li a{
+    position: absolute;
+    right: 13em;
+    color: aliceblue;
+    padding-top: 5px;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+}
+.logo .log
+{
+ position: absolute;
+ float:right;
+ margin-left: 100px;
+ padding-top: -1px;
+ width: 50px;
+}
+.small img
+{
+    margin-left: 150px;
+    width: 60px;
+}
+.small
+{
+    display: flex;
+    position: relative;
+}
+.txt
+{
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left:130px;
+    padding-right: 50px;
+    
+}
+.hh
+{
+    color: rgb(38, 63, 117);
+}
+.HH{
+    color: rgba(0, 0, 0, 0.701);
+}
+
+.middle 
+{
+    width: 100%;
+}
+.logo1 .log1
+{
+ position: absolute;
+ margin-left: 70px;
+ width: 70px;
+}
+
+.links1  li a{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    right: 4em;
+    padding-top: 22px;
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+     color: rgb(18, 61, 125);
+}
+.link1 li a{
+    position:absolute;
+    right: 13em;
+    padding-top: 22px;
+    color: rgb(0, 0, 0);
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    color: rgb(18, 61, 125);
+}
+.container1
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+.slider{
+    
+    background-color: rgba(0, 0, 0, 0.205);
+    height: 150px;
+    position: relative;
+    width: ;
+}
+.mid-slider
+{
+    display: flex;
+    position: relative;
+}
+.slider
+{
+    right: 40em;
+}
+@media(max-width:991px)
+{
+.logo1 .log1
+{
+ position: absolute;
+ float:right;
+ margin-left: 20px;
+ padding-top: 1px;
+ width: 50px;
+}
+    .link li a
+    {
+        font-size: small;
+        right: 7em;
+    }
+    .links  li a
+    {
+        right: 1em;
+        font-size: small; 
+    }
+    .logo .log
+    {
+    position: absolute;
+    float:right;
+    margin-left: 20px;
+    width: 50px;
+    }
+    .txt
+    {
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left:68px;
+    padding-right: 50px;
+    font-size: 12px;
+    }
+    .txt h2
+    {
+        font-size: large;
+    }
+
+    .link1 li a
+    {
+        font-size: small;
+        right: 7em;
+        padding-top: 20px;
+    }
+    .links1  li a
+    {
+        right: 1em;
+        font-size: small; 
+        padding-top: 20px;
+    }
+    .container1
+    {
+    width: 100%;
+    height: 55px;
+     }
+
+}
+
+.mid-container img
+{
+    width: 100%;
+}
+/*-------------------quote------------------*/
+.quot
+{
+    padding-top: 0px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.two h1
+{
+    color: rgba(29, 55, 92, 0.53);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 90px;
+    padding-left: 300px;
+
+}
+.two h2
+{
+    color: rgb(0, 57, 136);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 50px;
+   
+}
+.two{
+    display: flex;
+   
+}
+
+.h3 h3{
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: rgb(0, 52, 121);
+}
+
+.wrapp
+{
+    width: 100%;
+    background-color: rgb(24, 53, 87);
+    padding: 6px;
+    display: flex;
+    justify-content:flex-start;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+}
+.mount1
+{
+  padding-left: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.mount2
+{
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.wrapp .span
+{
+    background-color: rgba(185, 185, 185, 0.961);
+    color: rgb(24, 53, 87);
+    padding:5px;
+}
+.tw{
+    padding: 5px;
+}
+.wrapp .span h4
+{
+    border-bottom: 2px solid rgb(0, 28, 64);
+}
+.last img
+{
+    width: 100%;
+}
+#foot
+{
+    background-color: rgb(21, 46, 74);
+}
+.tem h2
+{
+    color:rgb(50, 78, 109);
+
+}
+
+@media(max-width:900px)
+{
+    quot
+{
+    padding-top: 0px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+   
+}
+    .two h1
+{
+    color: rgba(29, 55, 92, 0.53);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 70px;
+    padding-left: 10px;
+
+}
+.two h2
+{
+    color: rgb(0, 57, 136);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 13px;
+    padding-left: 0px;
+    padding-top: 45px;
+}
+.two{
+    display: flex;
+}
+.h3 h3{
+    font-size: 10px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+.tem h5
+{
+    color: aliceblue;
+}
+
+/*quoteeeeeee*/
+.wrapp
+{
+    width: 100%;
+    background-color: rgb(24, 53, 87);
+    padding: 6px;
+    display: flex;
+    justify-content:flex-start;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    position: relative;
+}
+.mount1
+{
+  padding-left: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+.mount2
+{
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.wrapp .span
+{
+    background-color: rgba(185, 185, 185, 0.961);
+    color: rgb(24, 53, 87);
+    padding:5px;
+}
+.wrapp .span h4
+{
+    border-bottom: 2px solid rgb(0, 28, 64);
+}
+.tw{
+    padding: 5px;
+}
+
+
+}
+
+
